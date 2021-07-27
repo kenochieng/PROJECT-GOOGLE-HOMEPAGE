@@ -1,0 +1,81 @@
+#content{
+    display:flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    height:100vh;
+    margin-top:150px;
+    
+}
+.buttons{
+    padding: 50px;
+    border-color: gray;
+}
+#form-search{
+    width: 450px;
+    height: 25px;
+    border-radius: 5px;
+}
+#homelogo{
+    padding-bottom: 20px;
+}
+#header{
+background-color: rgb(253, 253, 251);
+display: flex;
+height: 50px;
+width:100%;
+top: 0;
+position:fixed;
+left:0;
+align-items: right;
+margin:0,auto;
+justify-content:right;
+
+
+
+
+}
+
+
+#footer{
+    
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #E5FFCC;
+    height:130px;
+    
+}
+#navlogo1 img{
+height:25px;
+width:25px;
+}
+#navlogo2 img{
+height:25px;
+width:25px;
+}
+#footer-content{
+    display:grid;
+    padding:25px;
+    padding:auto;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 100px 100px 100px;
+    
+}
+#header a{
+    text-decoration-color: gray;
+    color: black;
+    text-decoration:none;
+    font-size:medium;
+    padding:10px;
+
+}
+#footer-content a{
+    text-decoration-color: gray;
+    color: gray;
+    text-decoration:none;
+    font-size:small;
+    padding:5px;
+
+}
+
